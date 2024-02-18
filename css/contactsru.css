@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* text-transform: capitalize; */
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+.logo-img img {
+    padding-top: 4px;
+    width: 130px;
+}
+
+:root {
+    --dark-green: #112a34;
+    --green-color: #004047;
+    --white-color: #fff;
+}
+
+::selection {
+    background: var(--green-color);
+    color: var(--white-color);
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    font-size: 90%;
+}
+
+section {
+
+    width: 100%;
+}
+
+.label {
+    font-size: 1.1rem;
+    color: #666;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+.heading {
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner {
+    max-width: 1130px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #323232;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.header {
+    font-family: 'Poppins', sans-serif;
+    min-height: 30px;
+}
+
+.header__top {
+    background-color: #112a34;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    min-height: 20px;
+}
+
+hr {
+    margin: 0 0 0 0;
+}
+
+.header__btn {
+    float: right;
+    line-height: 36px;
+    color: #eee;
+    padding: 5px 16px 4px 8px;
+    font-size: 16px;
+    display: block;
+    position: relative;
+}
+
+.header__btn2 {
+    font-weight: 500;
+    float: right;
+    line-height: 36px;
+    color: #eee;
+    padding: 5px 16px 4px 8px;
+    font-size: 16px;
+    display: block;
+    position: relative;
+}
+
+.header__contacts:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.header__phone,
+.header__email {
+    color: #ffffff;
+    letter-spacing: 0.25px;
+    line-height: 45px;
+    position: relative;
+}
+
+.header__phone {
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.header__phone:before {
+    content: "\e942";
+    font-family: 'icomoon';
+    position: absolute;
+    left: 0;
+    color: #c03;
+}
+
+.header__email {
+    padding-left: 24px;
+}
+
+.header__email:before {
+    content: "\f003";
+    font-family: 'icomoon';
+    position: absolute;
+    left: 0;
+    color: #c03;
+}
+
+
+.header-content {
+    padding: 17px 0px;
+    border-bottom: 1px solid #050505;
+}
+
+.logo-img {
+    width: 150px;
+}
+
+.header-content-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a.active {
+    border-color: #c03;
+    /* Жирный шрифт для активной ссылки (опционально) */
+}
+
+
+
+.menu a {
+    font-family: 'Poppins', sans-serif;
+    color: #323232;
+    font-size: 16px;
+    line-height: 36px;
+    border: 1px solid transparent;
+    padding: 0px 16px;
+    transition: all .3s;
+}
+
+.menu a:hover {
+    border-color: #c03;
+}
+
+.menu li+li {
+    padding-left: 10px;
+}
+
+#modal {
+    display: none;
+}
+
+
+
+
+
+
+.contacts {
+    padding: 1rem 15rem;
+}
+
+.contacts-photo {
+    display: flex;
+    align-items: center;
+}
+
+.contacts-title {
+    color: #c03;
+    font-weight: 700;
+    padding-top: 40px;
+    font-size: 25px;
+}
+
+.contacts-title2 {
+    color: #c03;
+    font-weight: 700;
+    padding-top: 40px;
+    font-size: 18px;
+}
+
+.contacts-text {
+    padding-top: 20px;
+    margin: 0;
+}
+
+.contacts-photo img {
+    width: 800px;
+}
+
+.contacts-main-text {
+    padding-top: 10px;
+}
+
+.contacts-photo2 img {
+    width: 800px;
+}
+
+.contacts-main-text2 {
+    padding-top: 10px;
+    margin-bottom: 60px
+}
+
+
+.contacts__phone,
+.contacts__email,
+.contacts__address {
+    color: #464646;
+    letter-spacing: 0.25px;
+    line-height: 45px;
+    position: relative;
+}
+
+.contacts__phone {
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.contacts__phone:before {
+    content: "\e942";
+    font-family: 'icomoon';
+    position: absolute;
+    left: 0;
+    color: #c03;
+}
+
+.contacts__email {
+    padding-left: 24px;
+}
+
+.contacts__email:before {
+    content: "\f003";
+    font-family: 'icomoon';
+    position: absolute;
+    left: 0;
+    color: #c03;
+}
+
+.contacts__address {
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.contacts__address::before {
+    content: "\f041";
+    font-family: 'icomoon';
+    position: absolute;
+    left: 0;
+    color: #c03;
+}
+
+.contacts-social ul {
+    list-style: none;
+    padding-top: 20px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.contacts-social ul li {
+    margin: 0;
+}
+
+.contacts-social ul li a img {
+    padding-top: 20px;
+    width: 30px;
+    margin-right: 15px;
+    margin-bottom: 60px;
+}
+
+footer {
+    width: 100%;
+}
+
+footer .footer {
+    background: var(--dark-green);
+    padding: 4rem 7rem;
+    padding-bottom: 1rem;
+}
+
+footer .footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--green-color);
+    gap: 2rem;
+}
+
+footer .footer .container .detail {
+    max-width: 32rem;
+}
+
+footer .footer .container .detail h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: var(--white-color);
+}
+
+footer .footer .container .detail p {
+    line-height: 1.6;
+    color: rgb(255 255 255/80%);
+    margin-bottom: 1.5rem;
+}
+
+footer .footer .container .detail h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--white-color);
+}
+
+footer .footer .container .detail a {
+    color: rgb(255 255 255/80%);
+    font-size: .9rem;
+    border-bottom: 2px solid #00cee4;
+    padding: 1px 0;
+    display: inline-block;
+}
+
+footer .footer .container .detail .social {
+    display: flex;
+    gap: .8rem;
+    margin-top: 1rem;
+}
+
+footer .footer .container .detail .social a {
+    border: none;
+    font-size: 1.3rem;
+    color: var(--white-color);
+}
+
+footer .footer .container h4 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+    color: var(--white-color);
+}
+
+.about-us img {
+    width: 25px;
+}
+
+footer .footer .container li {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+footer .footer .container a {
+    color: rgb(255 255 255/80%);
+}
+
+footer .footer .container a:hover {
+    color: var(--white-color);
+}
+
+footer .footer .container span {
+    color: #000;
+    background: #00cee4;
+    font-size: .9rem;
+    padding: .1rem .5rem;
+    border-radius: .3rem;
+    font-weight: 500;
+}
+
+footer .footer .copyright {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    font-size: .9rem;
+    color: rgb(255 255 255/80%);
+    text-align: center;
+}
+
+footer .footer .copyright a {
+    color: rgb(255 255 255/80%);
+    margin-left: 1rem;
+    text-align: center;
+}
